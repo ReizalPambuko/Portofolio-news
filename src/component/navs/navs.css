@@ -1,0 +1,66 @@
+.navs{
+    padding: 30px 0;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 9999;
+}
+.desktop{
+    display: flex;
+    align-items: center;
+}
+
+.desktop li a{
+    margin-left: 2rem;
+    color: #333;
+    font-weight: 700;
+}
+
+.bars{
+    display: none;
+    cursor: pointer;
+}
+
+.containers{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+@media screen and (max-width: 600px){
+    .navs{
+        box-shadow: 0 10px 20px rgba(0,0,0, .2);
+        padding: 3% 0;
+    }
+    .bars{
+        display: block;
+        font-size: 1.5rem;
+    }
+    .desktop{
+      display: none;
+    }
+    .mobile{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        text-align: end;
+        box-shadow: 0 10px 20px rgba(0,0,0, .2);
+        background-color: #fff;
+    }
+    
+    .mobile li a{
+        display: inline-block;
+        border-top: 1px solid #575757;
+        width: 100%;
+        padding: 1.3rem;
+        color: #333;
+        font-weight: 700;
+    }
+
+    h2{
+        font-size: 1.1rem;
+    }
+   
+
+    
+}

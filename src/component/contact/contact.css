@@ -1,0 +1,71 @@
+.contact__container {
+    background: url(../../assets//bg1.png);
+    background-repeat: no-repeat;
+    padding: 4% 0;
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem;
+    width: 65%;
+    margin: auto;
+    gap: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+
+input, textarea{
+    padding: 1.5rem 1rem;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    
+}
+
+.contact__input {
+    margin-top: 5rem;
+}
+
+label{
+    color: #333;
+
+}
+
+.btn__input{
+    background-color: #facf0f;
+    border: none;
+    outline: none;
+    width: 20%;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #333;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px){
+   
+}
+
+/* ========== MEDIA SCREEN (SMALL DEVICE) */
+@media screen and (max-width: 600px){
+    .contact__container{
+        padding: 6% 0;
+    }
+
+    form{
+    padding: 1.7rem;
+    width: 100%;
+}
+
+input, textarea{
+    padding: 1.2rem 1rem;
+}
+
+.btn__input{
+    width: 40%;
+}
+}

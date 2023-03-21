@@ -24,7 +24,8 @@ const HeaderSocial = () => {
         {" "}
         <BsGithub className="container__social-icon" />
       </a>
-      <a href="https://mail.google.com/mail/u/2/#inbox">
+      <a href="mailto:mohammadreizall@gmail.com">
+        {" "}
         <SiGmail className=" container__social-icon" />
       </a>
     </div>

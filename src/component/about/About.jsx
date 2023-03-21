@@ -26,7 +26,10 @@ const About = () => {
               grow. If you have a good opportunity that matches my skills and
               experience then don't hesitate to contact me.
             </p>
-            <a href="https://mail.google.com/mail/u/2/#inbox" className="btn">
+            <a
+              href=" https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=mohammadreizall@gmail.com"
+              className="btn"
+            >
               CONTACT
             </a>
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import IMG1 from "../../assets/projects1.jpeg";
+import IMG3 from "../../assets/wedding.png";
 
 const Project = () => {
   return (
@@ -15,43 +16,13 @@ const Project = () => {
           </p>
         </div>
         <article className="projects__item">
-          <img src={IMG1} alt="" />
+          <img src={IMG3} alt="" />
           <div className="content__teks">
-            <h3>Boreal Coffee Clone</h3>
+            <h3>Wedding</h3>
             <p>
-              I re-created the frontend of Boreal Coffee's official web app
-              because I got attracted to their beautiful UI. It was a great
-              experience for me to build the entire frontend.
+              I created this Wedding website because I'm interested in a good UI
             </p>
-            <a href="" className="btn">
-              CASE STUDY
-            </a>
-          </div>
-        </article>
-        <article className="projects__item">
-          <img src={IMG1} alt="" />
-          <div className="content__teks">
-            <h3>Boreal Coffee Clone</h3>
-            <p>
-              I re-created the frontend of Boreal Coffee's official web app
-              because I got attracted to their beautiful UI. It was a great
-              experience for me to build the entire frontend.
-            </p>
-            <a href="" className="btn">
-              CASE STUDY
-            </a>
-          </div>
-        </article>
-        <article className="projects__item">
-          <img src={IMG1} alt="" />
-          <div className="content__teks">
-            <h3>Boreal Coffee Clone</h3>
-            <p>
-              I re-created the frontend of Boreal Coffee's official web app
-              because I got attracted to their beautiful UI. It was a great
-              experience for me to build the entire frontend.
-            </p>
-            <a href="" className="btn">
+            <a href="https://Wedding.mrcap.repl.co" className="btn">
               CASE STUDY
             </a>
           </div>

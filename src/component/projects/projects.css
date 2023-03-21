@@ -13,7 +13,11 @@
 }
 
 .projects__item img{
-    width: 100%;
+    width: 80%;
+}
+
+.content__teks{
+    margin-left: 4rem;
 }
 
 .content__teks h3{
@@ -22,7 +26,7 @@
 
 .content__teks p{
     margin: 2rem 0;
-    width: 70%;
+    width: 90%;
 }
 
 .content__teks a{
@@ -47,6 +51,7 @@
 
 .content__teks{
     text-align: center;
+    margin: auto;
 }
 
 .content__teks h3{

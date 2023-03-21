@@ -55,6 +55,10 @@
     font-size: 1.8rem;
 }
 
+.container__social a{
+    color: black;
+    display: block;
+}
 @media screen and (max-width: 600px){
     .container__header{
         padding: 20% 0;

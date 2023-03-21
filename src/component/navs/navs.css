@@ -4,6 +4,7 @@
     background-color: #fff;
     width: 100%;
     z-index: 9999;
+    box-shadow: 0 10px 20px rgba(0,0,0, .2);
 }
 .desktop{
     display: flex;
@@ -14,6 +15,11 @@
     margin-left: 2rem;
     color: #333;
     font-weight: 700;
+    transition: all .3s;
+}
+
+.desktop li a:hover{
+    color: rgb(255, 196, 86);
 }
 
 .bars{

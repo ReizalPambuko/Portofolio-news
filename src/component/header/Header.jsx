@@ -13,7 +13,7 @@ const Header = () => {
             and Web Applications that leads to the success of the overall
             product
           </p>
-          <a href="" className="btn__header">
+          <a href="#projects" className="btn__header">
             PROJECTS
           </a>
         </div>

@@ -22,6 +22,7 @@ input, textarea{
     background: #f0f0f0;
     border: none;
     outline: none;
+    border-radius: 5px;
     
 }
 

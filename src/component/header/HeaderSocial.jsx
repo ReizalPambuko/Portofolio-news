@@ -1,6 +1,6 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { BsYoutube } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
@@ -12,9 +12,9 @@ const HeaderSocial = () => {
         {" "}
         <BsLinkedin className="container__social-icon" />
       </a>
-      <a href="">
+      <a href="https://bit.ly/3he4dBE">
         {" "}
-        <BsTwitter className="container__social-icon" />
+        <IoLogoWhatsapp className="container__social-icon" />
       </a>
       <a href="https://www.youtube.com/channel/UCKKd7Ik8mFcM6q7YkgaeG6w">
         {" "}

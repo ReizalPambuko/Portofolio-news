@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import IMG1 from "../../assets/projects1.jpeg";
 import IMG3 from "../../assets/wedding.png";
+import IMG4 from "../../assets/netflix.png";
 
 const Project = () => {
   return (
@@ -23,6 +24,16 @@ const Project = () => {
               I created this Wedding website because I'm interested in a good UI
             </p>
             <a href="https://Wedding.mrcap.repl.co" className="btn">
+              CASE STUDY
+            </a>
+          </div>
+        </article>
+        <article className="projects__item">
+          <img src={IMG4} alt="" />
+          <div className="content__teks">
+            <h3>Clone Netflix Anime</h3>
+            <p>I made a netflix clone, the UI is really good, I'm interested</p>
+            <a href="https://reizal-anime.vercel.app/" className="btn">
               CASE STUDY
             </a>
           </div>

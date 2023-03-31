@@ -3,6 +3,7 @@ import "./projects.css";
 import IMG1 from "../../assets/projects1.jpeg";
 import IMG3 from "../../assets/wedding.png";
 import IMG4 from "../../assets/netflix.png";
+import IMG5 from "../../assets/cart.png";
 
 const Project = () => {
   return (
@@ -34,6 +35,16 @@ const Project = () => {
             <h3>Clone Netflix Anime</h3>
             <p>I made a netflix clone, the UI is really good, I'm interested</p>
             <a href="https://reizal-anime.vercel.app/" className="btn">
+              CASE STUDY
+            </a>
+          </div>
+        </article>
+        <article className="projects__item">
+          <img src={IMG5} alt="" />
+          <div className="content__teks">
+            <h3>E-Commerce</h3>
+            <p>I made E-Commerce using React Js and Tailwind Css framework</p>
+            <a href="https://shop-six-beryl.vercel.app/" className="btn">
               CASE STUDY
             </a>
           </div>

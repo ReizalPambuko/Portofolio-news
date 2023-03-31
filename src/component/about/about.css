@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 600px) {
   .container__about {
-    margin: 5rem 0;
+    padding: 5rem 0;
   }
   .judul h2 {
     font-size: 2rem;

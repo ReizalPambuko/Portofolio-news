@@ -1,6 +1,6 @@
 import React from "react";
 import "./projects.css";
-import IMG1 from "../../assets/projects1.jpeg";
+import IMG1 from "../../assets/crud.png";
 import IMG3 from "../../assets/wedding.png";
 import IMG4 from "../../assets/netflix.png";
 import IMG5 from "../../assets/cart.png";
@@ -45,6 +45,18 @@ const Project = () => {
             <h3>E-Commerce</h3>
             <p>I made E-Commerce using React Js and Tailwind Css framework</p>
             <a href="https://shop-six-beryl.vercel.app/" className="btn">
+              CASE STUDY
+            </a>
+          </div>
+        </article>
+        <article className="projects__item">
+          <img src={IMG1} alt="" />
+          <div className="content__teks">
+            <h3>CRUD</h3>
+            <p>
+              I made this CRUD using Json-server, React Bootstrap and React js
+            </p>
+            <a href="#" className="btn">
               CASE STUDY
             </a>
           </div>

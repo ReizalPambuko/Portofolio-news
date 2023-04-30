@@ -43,6 +43,8 @@ const About = () => {
               <p className="skills__skill">Github</p>
               <p className="skills__skill">Bootstrap</p>
               <p className="skills__skill">Tailwind</p>
+              <p className="skills__skill">Express js</p>
+              <p className="skills__skill">MongoDb</p>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ import { SiGmail } from "react-icons/si";
 
 const HeaderSocial = () => {
   return (
-   <h4>...</h4>
+   <h4>.</h4>
   );
 };
 
